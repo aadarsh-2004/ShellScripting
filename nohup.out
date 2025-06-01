@@ -1,0 +1,4 @@
+A = To see the current date
+B = List all the files in current directory 
+./Case_conditional_Statement.sh: line 5: read: read error: 0: Bad file descriptor
+Please provide valid input
