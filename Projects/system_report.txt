@@ -1,0 +1,35 @@
+====================================================
+🖥️  System Health Report - Mon Jun  2 10:45:37 AM IST 2025
+====================================================
+-------------------------------------------------------
+
+Running Processes are :
+    PID CMD                         %CPU %MEM
+   2436 /usr/bin/gnome-shell         1.8  6.3
+   3147 /usr/libexec/gnome-terminal  0.6  1.8
+   4735 /usr/libexec/nm-dispatcher   0.6  0.4
+   2956 ibus-daemon --panel disable  0.4  0.2
+   2751 /usr/bin/vmtoolsd -n vmusr   0.3  0.7
+
+--------------------------------------------------------
+
+Your Disk Usage is 31%
+--------------------------------------------------------
+Your Memory Usage Details are
+
+               total        used        free      shared  buff/cache   available
+Mem:            1815         998         639          11         346         816
+---------------------------------------------------------
+SystemUp Time
+
+up 2 hours
+
+---------------------------------------------------------
+---------------------------------------------------------
+Last 5 logs are :
+
+Jun  2 10:37:50 localhost sudo[4582]: aadarsh : TTY=pts/1 ; PWD=/home/aadarsh/ShellScripting/Projects ; USER=root ; COMMAND=/bin/tail -5 /var/log/secure
+Jun  2 10:37:50 localhost sudo[4582]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Jun  2 10:37:50 localhost sudo[4582]: pam_unix(sudo:session): session closed for user root
+Jun  2 10:45:39 localhost unix_chkpwd[4768]: password check failed for user (aadarsh)
+Jun  2 10:45:39 localhost sudo[4761]: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=aadarsh rhost=  user=aadarsh
